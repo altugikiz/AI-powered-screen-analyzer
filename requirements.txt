@@ -1,0 +1,17 @@
+# AI-Powered Screen Content Analyzer - Dependencies
+
+# Core
+mss>=9.0.1
+pynput>=1.7.6
+Pillow>=10.0.0
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+openai>=1.12.0
+python-dotenv>=1.0.0
+PyQt6>=6.6.0
+
+# macOS: show overlay on all Spaces
+pyobjc-framework-Cocoa>=10.0; sys_platform == "darwin"
+
+# Testing
+pytest>=8.0.0
